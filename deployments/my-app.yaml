@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: my-app
-        image: mpetason/hello-universe:latest
+        image: gcr.io/google-samples/node-hello:1.0
         ports:
         - containerPort: 8080
 ---
